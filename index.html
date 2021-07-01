@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <section class="Bài 1"></section>
+        <div>
+          <h3>Bài Tập 1 </h3>
+          <label for="soThuNhat">Số Thứ 1</label>
+          <input type="number" id="soThuNhat" />
+          
+        </div>
+        <div>
+            <label for="soThuHai">Số Thứ 2</label>
+            <input type="number" id="soThuHai" />
+            
+          </div>
+          <div>
+            <label for="soThuBa">Số Thứ 3</label>
+            <input type="number" id="soThuBa" />
+            
+          </div>
+          <button onclick="sapXepThuTu()">Sắp Xếp theo tứ tự tăng dần</button>
+          <div>
+            <span id="sapXepNao"></span>
+          </div>
+  
+  </form>
+
+<section class='Bài 2'>
+  <div>
+    <h3>Bài Tập 2 </h3>
+<label for="chaoHoi"> Ai đó ?</label>
+<input type="text" name="" id="chaoHoi">
+<button onclick="hoiAiDo()" >Hỏi Thử</button>
+<div>
+  <span id="chaoAiDo"></span>
+</div>
+
+</div>
+</section>
+
+<section class="bài 3">
+  <div>
+    <h3>Bài Tập 3 </h3>
+    <label for="numberOne">Số Thứ 1</label>
+    <input type="number" id="numberOne" />
+    
+  </div>
+  <div>
+      <label for="numberTwo">Số Thứ 2</label>
+      <input type="number" id="numberTwo" />
+      
+    </div>
+    <div>
+      <label for="numberThree">Số Thứ 3</label>
+      <input type="number" id="numberThree" />
+      
+    </div>
+    <button onclick="XacMinhChanLe()">Xác minh số Chẵn và số lẻ</button>
+  
+    <div>
+      <span id="showNumBerOne"></span> <br>
+      <span id="showNumBerTwo"></span> <br>
+      <span id="showNumBerThree"></span> <br>
+    </div>
+    <div id="tongSoChan" style="display: none">
+    </div>
+    <div id="tongSoLe" style="display: none">
+    </div>
+
+</section>
+
+
+<section class="Bài 4">
+  <h3>Bài tập 4</h3>
+  <label for="canhA"></label>
+  <input type="number" name="" id="canhA">
+  <label for="canhB"></label>
+  <input type="number" name="" id="canhB">
+  <label for="canhC"></label>
+  <input type="number" name="" id="canhC">
+  <button onclick="xacDinhTamGiac()" >Đây là tam giác gì ?</button>
+
+  <div>
+    <span id="daylaTamGiac"></span>
+  </div>
+
+</section>
+
+<script src="./JS/main.js"></script>
+</body>
+</html>
